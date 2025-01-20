@@ -41,7 +41,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            quick-tap-ms = <124>;
+            quick-tap-ms = <200>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
@@ -79,7 +79,7 @@
             bindings = <
               &kp Q        &kp W    &kp E                       &kp R      &kp T         &kp Y    &kp U    &kp I          &kp O    &kp P
               &hm LCTRL A  &lt 2 S  &lt 1 D                     &kp F      &kp G         &kp H    &kp J    &lt 3 K        &lt 4 L  &hm RCTRL SEMICOLON
-&sk LEFT_GUI  &kp Z        &kp X    &kp C                       &kp V      &kp B         &kp N    &kp M    &kp COMMA      &kp DOT  &kp SLASH            &kp SINGLE_QUOTE
+&sk LEFT_GUI  &kp Z        &kp X    &kp C                       &kp V      &kp B         &kp N    &kp M    &kp COMMA      &kp DOT  &kp SLASH            &lt 5 APOSTROPHE
                                     &mt LEFT_ALT DOUBLE_QUOTES  &kp SPACE  &kp ESCAPE    &kp RET  &kp TAB  &kp BACKSPACE
             >;
         };
@@ -117,6 +117,15 @@
         &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(LBRC)  &kp LS(RBRC)  &trans    &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &kp LBKT      &kp RBKT      &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                     &trans        &trans        &trans    &trans  &trans  &trans
+            >;
+        };
+
+        fn {
+            bindings = <
+        &trans  &kp F7  &kp F8  &kp F9  &kp F10    &kp F11    &kp F12   &trans  &trans  &trans
+        &trans  &kp F4  &kp F5  &kp F6  &trans     &trans     &trans    &trans  &trans  &trans
+&trans  &trans  &kp F1  &kp F2  &kp F3  &trans     &kp LCTRL  &kp LALT  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans     &trans     &trans    &trans
             >;
         };
     };
