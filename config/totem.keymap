@@ -41,7 +41,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            quick-tap-ms = <400>;
+            quick-tap-ms = <300>;
             global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
@@ -78,7 +78,7 @@
             label = "Base";
             bindings = <
               &kp Q        &kp W    &kp E                       &kp R      &kp T                    &kp Y    &kp U    &kp I          &kp O    &kp P
-              &hm LCTRL A  &lt 2 S  &lt 1 D                     &kp F      &kp G                    &kp H    &kp J    &lt 3 K        &lt 4 L  &hm RCTRL SEMICOLON
+              &hm LCTRL A  &hm 2 S  &hm 1 D                     &kp F      &kp G                    &kp H    &kp J    &hm 3 K        &hm 4 L  &hm RCTRL SEMICOLON
 &sk LEFT_GUI  &kp Z        &kp X    &kp C                       &kp V      &kp B                    &kp N    &kp M    &kp COMMA      &kp DOT  &kp SLASH            &lt 5 APOSTROPHE
                                     &mt LEFT_ALT DOUBLE_QUOTES  &kp SPACE  &mt LEFT_SHIFT ESCAPE    &kp RET  &kp TAB  &kp BACKSPACE
             >;
