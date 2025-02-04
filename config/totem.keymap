@@ -100,10 +100,10 @@
 
         arrows {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans        &trans     &trans
-        &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN   &kp UP        &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp LCTRL  &kp LEFT_ALT  &kp DEL    &trans  &trans
-                        &trans  &trans  &trans    &trans    &trans     &trans
+        &trans  &trans  &trans  &trans  &trans    &trans    &kp LEFT_SHIFT  &trans        &trans     &trans
+        &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp DOWN        &kp UP        &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp LCTRL       &kp LEFT_ALT  &kp DEL    &trans  &trans
+                        &trans  &trans  &trans    &trans    &trans          &trans
             >;
         };
 
